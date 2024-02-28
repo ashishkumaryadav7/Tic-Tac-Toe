@@ -1,6 +1,16 @@
 let boxes = document.querySelectorAll('.sub-box');
 let turnVal = 'O';
 
+let pattern = [
+    ["box-1","box-2","box-3"],
+    ["box-4","box-5","box-6"],
+    ["box-7","box-8","box-9"],
+    ["box-1","box-4","box-7"],
+    ["box-2","box-5","box-8"],
+    ["box-3","box-6","box-9"],
+    ["box-1","box-5","box-9"],
+    ["box-3","box-5","box-7"]
+];
 
 boxes.forEach((box) => {
     box.clicked = false;
