@@ -47,6 +47,7 @@ html , body{
     font-size: 80px;
     font-weight: bolder;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 
 #box-1 , #box-2 , #box-4 , #box-5 , #box-7 , #box-8{
