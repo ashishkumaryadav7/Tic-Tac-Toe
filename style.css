@@ -23,14 +23,18 @@ html , body{
     width: 200px;
     text-align: center;
     font-family: cursive;
+    border-radius: 15px;
     margin-bottom: 50px;
     background-color: rgba(107, 161, 163, 0.132);
+    box-shadow: inset 1px 1px 25px rgba(188, 210, 236, 0.405),1px 1px 25px rgba(188, 210, 236, 0.405);
+
 }
 
 .game-box{
     width: 380px;
     height: 380px;
     display: grid;
+    box-shadow: 1px 1px 25px rgba(93, 111, 131, 0.405);
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
 }
