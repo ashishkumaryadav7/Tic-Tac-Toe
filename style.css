@@ -37,6 +37,11 @@ html , body{
 
 .sub-box{
     background-color: rgba(57, 73, 90, 0.192);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    font-weight: bolder;
 }
 
 #box-1 , #box-2 , #box-4 , #box-5 , #box-7 , #box-8{
