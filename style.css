@@ -24,7 +24,7 @@ html , body{
     text-align: center;
     font-family: cursive;
     border-radius: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
     background-color: rgba(107, 161, 163, 0.132);
     box-shadow: inset 1px 1px 25px rgba(188, 210, 236, 0.405),1px 1px 25px rgba(188, 210, 236, 0.405);
 
@@ -40,7 +40,7 @@ html , body{
 }
 
 .sub-box{
-    background-color: rgba(57, 73, 90, 0.192);
+    background-color: #39495a31;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,7 +113,7 @@ html , body{
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    box-shadow: 1px 1px 10px rgb(46, 185, 139);
+    box-shadow: 1px 1px 10px #2eb98b;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.975);
 }
 
@@ -122,14 +122,13 @@ html , body{
     height: 150px;
     top: auto;
     position: absolute;
-    /* border: 2px solid; */
-    display: none;
+    visibility: hidden;
     background-color: #3e735b43;
-    transition: all 1s linear;
-    /* display: flex; */
+    background-color: #463612d2;
+    display: flex;    
     justify-content: center;
     align-items: center;
     font-size: 50px;
     font-weight: bolder;
-    color: #39af7a;
+    color: #d39719;
 }
