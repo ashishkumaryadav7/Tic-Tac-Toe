@@ -115,6 +115,8 @@ html , body{
     border-radius: 20px;
     box-shadow: 1px 1px 10px #2eb98b;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.975);
+    -webkit-tap-highlight-color: transparent;
+
 }
 
 .result{
